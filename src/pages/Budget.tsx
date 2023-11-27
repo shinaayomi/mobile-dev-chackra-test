@@ -21,22 +21,6 @@ import Footer from "../components/Footer";
 export default function Budget() {
   return (
     <Container maxW="container.xl" px={3} pb="28" pt={["3", "5"]}>
-      {/* <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra
-          </Link>
-        </VStack> */}
       <Heading
         fontFamily="csBold"
         fontSize={"28px"}
@@ -77,7 +61,7 @@ export default function Budget() {
             <Tab color="#707480" px="0" _selected={{ color: "#0466C8" }}>
               This Month
             </Tab>
-            <Button ml="auto">
+            <Button bg="transparent" ml="auto">
               <ThreeDots />
             </Button>
           </TabList>
