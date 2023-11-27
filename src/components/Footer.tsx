@@ -51,7 +51,9 @@ export default function Footer() {
           {navList.map((nav, index) => (
             <VStack key={index} gap="10px">
               <nav.icon />
-              <Text fontSize="xs">{nav.title}</Text>
+              <Text fontSize="xs" color={index === 3 ? "#001233" : "#797B8B"}>
+                {nav.title}
+              </Text>
             </VStack>
           ))}
         </Flex>
